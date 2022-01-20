@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>
+            Comptes
+        </h1>
+        
+            <center>
+                <form class="transaction">
+                <table class="transaction_table" >
+                    <tr>
+                        <th>Type:</th>
+                        <th>Montant(FCFA):</th>
+                        <th>Personne:</th>
+                        <th>Motif:</th>
+                    </tr>
+                    <tr>
+                        <th><select name="type" id="type">
+                                <option value="debit">Debit</option>
+                                <option value="credit">Credit</option>
+                            </select></th>
+                        <th><input type="number" id="montant" name="montant"></th>
+                        <th><input type="text" id="person" name="person"></th>
+                        <th><input type="text" id="motif" name="motif"></th>
+                        <td><button type="submit">VALIDER</button></td>
+                    </tr>
+                </table>
+            </form>
+            </center>
+        
+    </header>
+
+    <div class="caisse">
+        <h2>
+            CAISSE
+        </h2>
+        <ol class="list">
+
+        </ol>
+    </div>
+    <div class="person">
+        <div class="etat_caisse">
+            <h2>
+                Etat Caisse
+            </h2>
+            <div class="etat">
+
+            </div>
+        </div>
+        <h2>
+            Compte du Personnels
+        </h2>
+        <table class="person_table" border='1' cellpadding="15%">
+            <tr>
+                <th>Personnel</th>
+                <th class="debit">Debit</th>
+                <th class="credit">Credit</th>
+            </tr>
+            <tr>
+                <td>Mohamed</td>
+                <td>25000</td>
+                <td>15000</td>
+            </tr>
+            <tr>
+                <td>Sada Sow</td>
+                <td>30000</td>
+                <td>30000</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    
+    <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background: rgb(255, 255, 255);
+}
+
+header h1 {
+    color: gray;
+    text-align: center;  
+}
+.transaction{
+    background: rgb(223, 219, 219);
+    width: 100%;
+}
+table.transaction_table{
+    padding: 20px;
+    color: gray;
+    width: 60%;
+}
+table.person_table{
+    border-collapse: collapse;
+    width: 60%;   
+}
+select, input{
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    border: 0;
+    border-radius: 8px;
+}
+button{
+    padding: 4px;
+    width: 100px;
+    min-width: 80px;
+    background: linear-gradient(gray, blue);
+    color: white;
+    border: 0;
+    border-radius: 8px; 
+}
+h2{
+    margin: 40px auto;
+    color: blue;
+    text-align: center;
+}
+.caisse{
+    max-width: 700px;
+    float: left;
+    
+}
+.person{
+    float: right;
+}
+li{
+    padding: 6px 10px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+}
+li.credit{
+    background-color: rgb(133, 182, 214);
+}
+li.debit{
+    background-color: rgb(250, 140, 140);
+}
+th.credit{
+    background-color: rgb(133, 182, 214);
+    color: white;
+}
+th.debit{
+    background-color: rgb(250, 140, 140);
+    color: white;
+}
+li h4.debit{
+    color: red;
+    margin: 0;
+    text-transform: capitalize;
+}
+li h4.credit{
+    color: blue;
+    margin: 0;
+    text-transform: capitalize;
+}
+li p{
+    color: rgb(65, 61, 61);
+    margin: 8px 0 0 ;
+}
+div.etat{
+    border: 1px solid black;
+    height: 50px;
+    margin: 0 20%;
+}
